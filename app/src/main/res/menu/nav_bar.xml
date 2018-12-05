@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inboxTab"
+        android:icon="@drawable/baseline_email_black_24dp"
+        android:title="@string/inbox_nav"
+        android:visible="true" />
+    <item
+        android:id="@+id/galleryTabTab"
+        android:icon="@drawable/baseline_photo_library_black_24dp"
+        android:title="@string/gallery_nav"
+        android:visible="true" />
+    <item
+        android:id="@+id/cameraTab"
+        android:checked="true"
+        android:icon="@drawable/baseline_videocam_black_24dp"
+        android:title="@string/camera_nav"
+        android:visible="true" />
+    <item
+        android:id="@+id/UploadTab"
+        android:icon="@drawable/baseline_cloud_upload_black_24dp"
+        android:title="@string/cap_nav"
+        android:visible="true" />
+    <item
+        android:id="@+id/accountTab"
+        android:icon="@drawable/baseline_account_circle_black_24dp"
+        android:title="@string/account_nav"
+        android:visible="true" />
+</menu>

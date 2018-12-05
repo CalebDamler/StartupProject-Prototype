@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/cam_mini_frame"
+    android:layout_gravity="top|bottom"
+    android:background="?android:attr/colorBackground"
+    android:backgroundTint="?android:attr/colorBackground"
+    tools:context=".CameraFragment">
+
+
+    <com.calebco.caleb.prototype1.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical" />
+
+    <FrameLayout
+        android:id="@+id/cam_mini_frame"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="#4285f4">
+
+        <Button
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/record" />
+
+        <ImageButton
+            android:id="@+id/info"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:contentDescription="@string/description_info"
+            android:padding="20dp"
+            android:src="@android:drawable/ic_menu_rotate" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

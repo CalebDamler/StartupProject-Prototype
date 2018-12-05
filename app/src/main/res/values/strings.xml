@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Prototype1</string>
+    <string name="new_account">NEW ACCOUNT</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_status">Update Status</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="change_status">Change Status</string>
+    <string name="setting_display_name">setting_display_name</string>
+    <string name="uploadText">Upload Video</string>
+    <string name="upload_details">Upload Details</string>
+    <string name="backup_email_hint">Backup Email if user does not have account</string>
+    <string name="upload_date_hint">When should they receive this?</string>
+    <string name="upload_name_hint">Recipient Name</string>
+    <string name="title_of_video">Title of video</string>
+
+
+    <string name="camera_nav">Camera</string>
+    <string name="account_nav">Account</string>
+    <string name="my_videos_nav">Videos</string>
+    <string name="settings_nav">Settings</string>
+    <string name="inbox_nav">Inbox</string>
+    <string name="card_recipient">Recipient</string>
+    <string name="card_date">Date</string>
+    <string name="card_title">Title</string>
+
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="description_info">Info</string>
+    <string name="permission_request">This sample needs permission for camera and audio recording.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_messege">How to use camera</string>
+    <string name="gallery_nav">Gallery</string>
+    <string name="cap_nav">Upload</string>
+</resources>
